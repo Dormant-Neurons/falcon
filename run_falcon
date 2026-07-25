@@ -25,7 +25,7 @@ B=1024
 LOSS='hi-dist-xent'
 TS=$(date "+%m.%d-%H.%M.%S")
 
-/home/mete/miniconda3/envs/apkencoder/bin/python -u relabel_falcon.py	                                \
+python -u relabel_falcon.py	                                \
             --data ${DATA}                                  \
             --benign_zero                                   \
             --mdate 20230501                                \
